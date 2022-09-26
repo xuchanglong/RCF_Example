@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/bdsx.dir/main.cpp.o  -o bdsx ../../source/libRCF.a -lpthread -ldl -luuid 
