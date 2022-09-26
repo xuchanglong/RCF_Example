@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/client.dir/ex1_client.cpp.o  -o client ../../source/libRCF.a -lpthread -ldl -luuid 

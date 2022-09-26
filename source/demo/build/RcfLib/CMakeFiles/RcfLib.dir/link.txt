@@ -1,0 +1,2 @@
+/usr/bin/ar qc /code/my/RCF/RCF-3.3.470/demo/cmake/bin/libRcfLib.a  CMakeFiles/RcfLib.dir/code/my/RCF/RCF-3.3.470/src/RCF/RCF.cpp.o
+/usr/bin/ranlib /code/my/RCF/RCF-3.3.470/demo/cmake/bin/libRcfLib.a

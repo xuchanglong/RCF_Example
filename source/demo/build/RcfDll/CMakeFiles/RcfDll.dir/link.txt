@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libRcfDll.so -o /code/my/RCF/RCF-3.3.470/demo/cmake/bin/libRcfDll.so CMakeFiles/RcfDll.dir/code/my/RCF/RCF-3.3.470/src/RCF/RCF.cpp.o  -L/code/my/RCF/RCF-3.3.470/demo/cmake/bin -Wl,-rpath,/code/my/RCF/RCF-3.3.470/demo/cmake/bin -lpthread -ldl -lstdc++fs -luuid 

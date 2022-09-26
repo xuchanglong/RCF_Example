@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/DemoServer.dir/code/my/RCF/RCF-3.3.470/demo/DemoServer.cpp.o  -o /code/my/RCF/RCF-3.3.470/demo/cmake/bin/DemoServer  -L/code/my/RCF/RCF-3.3.470/demo/cmake/bin -Wl,-rpath,/code/my/RCF/RCF-3.3.470/demo/cmake/bin /code/my/RCF/RCF-3.3.470/demo/cmake/bin/libRcfLib.a -lpthread -ldl -lstdc++fs -luuid 
