@@ -12,11 +12,12 @@ int main(int argc, char **argv)
         std::cout << "Calling the I_HelloWorld Print() method. " << std::endl;
         RcfClient<I_HelloWorld> client(RCF::TcpEndpoint(50001)); //创建客户端并连接
 
-        for (int i = 0; i < 10000; i++) //循环调用远程函数
+        for (int i = 0; i < 3; i++) //循环调用远程函数
         {
             client.Print("Hello World");
             std::cout << i << std::endl;
         }
+        std::cin.get();
     } catch (const RCF::Exception &e) {
         std::cout << "Error: " << e.getErrorMessage() << std::endl;
     }
